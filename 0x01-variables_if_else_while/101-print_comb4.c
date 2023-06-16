@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - prints all possible different combinations of three digits
  *
@@ -15,9 +16,9 @@ int main(void)
 
                 if (b < c && c < d)
                 {
-                        putchar( b + '0');
-                        putchar( c + '0');
-                        putchar( d + '0');
+                        putchar(b + '0');
+                        putchar(c + '0');
+                        putchar(d + '0');
 
                         if (a < 700)
                         {
