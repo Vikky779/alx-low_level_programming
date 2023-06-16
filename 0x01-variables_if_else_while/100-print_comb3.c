@@ -12,7 +12,6 @@ int main(void)
 
 	while (x < 100)
 	{
-
 		y = x % 10; /* singles digit */	
 		z = x / 10; /* doubles digit */
 
