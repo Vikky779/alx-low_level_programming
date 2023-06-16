@@ -2,18 +2,18 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - assigns a random number to a variable n each time it is executed and prints the last digit of the number in the variable n
+ * main - prints  based on the last digit of the number in the variable n
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	int n;
 	int o;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	o = n% 10;
+	o = n % 10;
 
 	if (o > 5)
 		printf("Last digit of %i is %i and is greater than 5\n", n, o);
