@@ -14,8 +14,7 @@ int main(void)
 	{
 		y = x % 10; /* singles digit */	
 		z = x / 10; /* doubles digit */
-
-		if (z < y)
+                if (z < y)
 		{
 			putchar(z + '0');
 			putchar(y + '0');
