@@ -8,9 +8,9 @@ int main(void)
 {
 	int a, b, c, d;
 
-		for (a = 0; a < 1000; a++)
-		{	
-			{ b = a / 100; /* hundreds */
+	for (a = 0; a < 1000; a++)
+	{			
+			b = a / 100; /* hundreds */
 			c = (a / 10) % 10; /* tens */
 			d = a % 10; /* singles */
 
@@ -26,8 +26,8 @@ int main(void)
 					putchar(32);
 				}
 			}
-		}
-		putchar('\n');
-		return (0);
+	}
+	putchar('\n');
+	return (0);
 }
 
