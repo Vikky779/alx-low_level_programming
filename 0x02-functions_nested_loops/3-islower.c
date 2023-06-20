@@ -6,14 +6,13 @@
  */
 int _islower(int c)
 {
-	char x;
+	char i;
 	int lower = 0;
 
-	for (x = 'a'; x <= 'z'; x++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		if (x == c)
-			_putchar('x');
-		else if (x != c)
+		if (i == c)
+			lower = 1;
 	}
-	retrn (0);
+	return (lower);
 }
