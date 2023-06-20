@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _islower - checks for lowercase character
+ * @c: An input character
  *Description: uses _putchar to print alphabet in lowercase
  * Return: Always 1 if it is lowercase and 0 if is uppercase
  */
