@@ -7,17 +7,13 @@
 int _islower(int c)
 {
 	char x;
-	int i = 0;
+	int lower = 0;
 
 	for (x = 'a'; x <= 'z'; x++)
 	{
 		if (x == c)
-			_putchar("x");
-		return (1);
-		else if ( x == 0)
-		{
 			_putchar('x');
-			return (0);
-		}
+		else if (x != c)
 	}
+	retrn (0);
 }
