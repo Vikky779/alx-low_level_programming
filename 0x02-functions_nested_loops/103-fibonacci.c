@@ -6,19 +6,18 @@
  */
 int main(void)
 {
-	long int i, a = 1, b = 2, sum = 0, tsum = 0;
+	long int i, a, b, sum;
 
-		for (i = 0; i < 49; i++)
+	a = 1;
+	b = 2;
+
+		for (i = 0; sum = 0; a < 4000000; i++)
 		{
-			if ((a % 2 == 0) && (b < 4000000))
-			{
-				tsum = tsum + b;
-			}
-			sum = a + b;
-			a = b;
-			b = sum;
-
+			if (!(a % 2))
+				sum += a;
+			b = a + b;
+			a = b - a;
 		}
-		printf("%ld\n", tsum);
+		printf("%ld\n", sum);
 		return (0);
 }
