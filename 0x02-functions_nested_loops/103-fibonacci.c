@@ -10,7 +10,7 @@ int main(void)
 
 		for (i = 0; i < 49; i++)
 		{
-			if ((a % 2 == 0) && (b <= 4000000))
+			if ((a % 2 == 0) && (b < 4000000))
 			{
 				tsum = tsum + b;
 			}
