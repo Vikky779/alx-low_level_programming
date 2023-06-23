@@ -1,7 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
- * main - prints from 1 to 100 followed  by a new line
- * Return: Always 0
+ * main - prints numbers from 1 to 100 followed  by a new line
+ * 3 multiples print Fizz
+ * 5 multiples print Buzz
+ * 3 and 5 multiples print Fizzbuzz
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
