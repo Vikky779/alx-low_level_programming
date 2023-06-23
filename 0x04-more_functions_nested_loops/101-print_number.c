@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * prime_number - prints an integer
+ * print_number - prints an integer
  * @n: An input integer
  * Return: Nothing
  */
