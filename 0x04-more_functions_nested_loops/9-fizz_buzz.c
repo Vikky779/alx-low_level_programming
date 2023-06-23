@@ -2,9 +2,9 @@
 #include <stdlib.h>
 /**
  * main - prints numbers from 1 to 100 followed  by a new line
- * 3 multiples print Fizz
- * 5 multiples print Buzz
- * 3 and 5 multiples print Fizzbuzz
+ * 3 multiples print Fizz instead of the number
+ * 5 multiples print Buzz instead of the number
+ * 3 and 5 multiples print Fizzbuzz instead of the number
  * Return: Always 0 (Success)
  */
 int main(void)
