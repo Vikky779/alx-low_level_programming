@@ -6,12 +6,12 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	char *dest[];
-	char *src[];
+	char dest[];
+	char src[];
 
-	strcpy(*dest, *src)
-	printf("The source string is: %s\n", *src);
-	printf("The destination string is: %s\n", *dest);
+	strcpy(dest, src)
+	printf("The source string is: %s\n", src);
+	printf("The destination string is: %s\n", dest);
 	
-	return (*dest);
+	return (dest);
 }
