@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 /**
  *char *_strcpy - copies the string pointed to by src to dest
  *@dest: destination string
@@ -14,5 +14,4 @@ char *_strcpy(char *dest, char *src)
 	printf("The destination string is: %s\n", *dest);
 	
 	return (*dest);
-}
 }
