@@ -20,24 +20,22 @@ int _atoi(char *s)
 		if (s[len] >= '0' && s[len] <= '9')
 		{
 			numbcount++;
-			if (!(s[len + 1] >= '0' && s[len] <= '9')
+			if (!(s[len + 1] >= '0' && s[len + 1] <= '9')
 					break;
-					}
-					len++;
-					}
-					for (; numbcount > 1; numbcount--)
-					mul *= 10;
-					for (; a <= len; a++)
-					{
-					if (s[a] == '-')
-					neg *= -1;
-					else if (s[a] <= '9' && s[a] >= '0')
-					{
-						numb += (s[a] - '0') * mul * neg;
-						mul /= 10;
-					}
-					}
-			return (numb);
+		}
+		len++;
+	}
+	for (; numbcount > 1; numbcount--)
+		mul *= 10;
+	for (; a <= len; a++)
+	{
+		if (s[a] == '-')
+			neg *= -1;
+		else if (s[a] <= '9' && s[a] >= '0')
+		{
+			numb += (s[a] - '0') * mul * neg;
+			mul /= 10;
+		}
+	}
+	return (numb);
 }
-
-
