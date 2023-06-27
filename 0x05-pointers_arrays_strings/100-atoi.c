@@ -20,7 +20,7 @@ int _atoi(char *s)
 		if (s[len] >= '0' && s[len] <= '9')
 		{
 			numbcount++;
-			if (!(s[len + 1] >= '0' && s[len + 1] <= '9')
+			if (!(s[len + 1] >= '0' && s[len + 1] <= '9'))
 					break;
 		}
 		len++;
