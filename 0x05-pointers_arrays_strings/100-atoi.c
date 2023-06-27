@@ -21,7 +21,7 @@ int _atoi(char *s)
 		{
 			numbcount++;
 			if (!(s[len + 1] >= '0' && s[len + 1] <= '9'))
-					break;
+				break;
 		}
 		len++;
 	}
