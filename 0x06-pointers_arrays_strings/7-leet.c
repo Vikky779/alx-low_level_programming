@@ -13,10 +13,13 @@ char *leet(char *n)
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
-		if (x[i] != '\0')
+		for (b = 0; b <= 9; b++)
 		{
-			x[i] = y[i];
-			y[i] = n[i];
+			if (n[i] == x[b])
+			{
+				n[i] = y[b / 2];
+				b = 9;
+			}
 		}
 	}
 	return (n);
