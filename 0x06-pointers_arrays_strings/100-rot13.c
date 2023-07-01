@@ -6,18 +6,18 @@
  */
 char *rot13(char *s)
 {
-	int a = 0, b = 0;
+	int a = 0, a2 = 0;
 
-	char alpha1[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char alpha2[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 	while (*(s + a) != 0)
 	{
-		for (b = 0; b <= 52; b++)
+		for (a2 = 0; a2 <= 52; a2++)
 		{
-			if (*(s + a) == alpha1[b])
+			if (*(s + a) == alpha[a2])
 			{
-				*(s + a) == alpha2[b];
+				*(s + a) == alpha2[a2];
 				break;
 			}
 		}
