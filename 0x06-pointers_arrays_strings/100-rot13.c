@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * *rot13 - encodes a string using rot13.
  * @s: Input string
@@ -7,7 +6,7 @@
  */
 char *rot13(char *s)
 {
-	int a = 0, a2 = 0;
+	int a = 0, a2;
 
 	char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char alpha2[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
