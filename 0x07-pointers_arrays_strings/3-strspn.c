@@ -10,8 +10,8 @@ unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int a = 0, b, c;
 
-	for (b = 0; s[b] != '\0' && b == a; a++)
-		for (c = 0; accept[a] != '\0'; c++)
+	for (b = 0; s[b] != '\0' && b == a; b++)
+		for (c = 0; accept[c] != '\0'; c++)
 			a++;
 	return (a);
 }
