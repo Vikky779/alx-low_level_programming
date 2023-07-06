@@ -5,12 +5,12 @@
  *  @a: sqrt of n
  *  Return: natural sqrt
  */
-int help(int n, int j)
+int help(int n, int a)
 {
-	if (x * x == n)
-		return (x);
-	else if (x * x < n)
-		return (help(n, ++x));
+	if (a * a == n)
+		return (a);
+	else if (a * a < n)
+		return (help(n, ++a));
 	return (-1);
 }
 /**
