@@ -13,3 +13,15 @@ int help(int n, int x)
 		return (help(n, ++x));
 	return (0);
 }
+
+/**
+ * is_prime_number - checks if n is prime
+ * @n: number
+ * Return: 0 if not prime and 1 if  prime
+ */
+int is_prime_number(int n)
+{
+	if (n == 1 || n == -1 || n == 0)
+		return (0);
+	return (help(n, 2));
+}
