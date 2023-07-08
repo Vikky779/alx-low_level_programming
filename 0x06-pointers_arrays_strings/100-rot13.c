@@ -15,9 +15,9 @@ char *rot13(char *s)
 	{
 		for (a = 0; a < 52; a++)
 		{
-			if (*(s + count) == alphabet[i])
+			if (*(s + count) == alphabet[a])
 			{
-				*(s + count) == rot13[i];
+				*(s + count) == rot13[a];
 				break;
 			}
 		}
