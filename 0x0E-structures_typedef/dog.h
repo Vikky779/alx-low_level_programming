@@ -5,6 +5,7 @@
  * @name: dog's nae
  * @age: dog's age
  * @owner: dog's owner
+ * dog_t: typedef for struct dog
  * Description: struct for dog
  */
 struct dog
