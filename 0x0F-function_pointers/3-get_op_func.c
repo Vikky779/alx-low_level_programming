@@ -19,9 +19,9 @@ int (*get_op_func(char *s))(int, int)
 
 	while (i < 10)
 	{
-		if (s[0] == ops->[i])
+		if (s[0] == op_s->op[i])
 			break;
 		i++;
 	}
-	return (ops[i / 2].f);
+	return (op_s[i / 2].f);
 }
