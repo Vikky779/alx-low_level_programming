@@ -11,7 +11,7 @@ void print_all(const char * const format, ...)
 {
 	va_list ptr;
 	int n = 0, i = 0;
-	char *sep = "";
+	char *sep = ", ";
 	char *spr;
 
 	va_start(ptr, format);
