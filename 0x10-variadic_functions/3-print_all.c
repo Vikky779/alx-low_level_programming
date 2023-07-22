@@ -3,6 +3,7 @@
 #include <stdarg.h>
 /**
  * print_all - prints anything
+ * c = char, i = int, f = float, s = char *
  * @format: list of types of arguments
  * Return: Nothing
  */
