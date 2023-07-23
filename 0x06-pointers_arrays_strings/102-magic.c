@@ -10,12 +10,14 @@ int main(void)
 	int a[5];
 	int *p;
 
-	a[2] = 98;
+	a[2] = 1024;
 	p = &n;
 	/*
-	 * You are not allowed to use the variable a in your new line of code
-	 * You are not allowed to modify the variable p
-	 * You can only write one statement
+	 * write your line of code here...
+	 * Remember:
+	 * you are not allowed to use a
+	 * you are not allowed to modify p
+	 * only one statement
 	 * You are not allowed to code anything else
 	 */
 	p[5] = 98;
