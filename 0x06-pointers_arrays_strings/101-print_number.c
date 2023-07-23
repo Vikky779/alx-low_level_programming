@@ -17,10 +17,11 @@ void print_number(int n)
 	{
 		a = n;
 	}
+
 	b = a;
 	c = 1;
 
-	while (b < 9)
+	while (b > 9)
 	{
 		b / 10;
 		c *= 10;
