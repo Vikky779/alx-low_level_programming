@@ -6,17 +6,17 @@
  */
 char *rot13(char *s)
 {
-	int count = 0, a;
+	int count = 0, i;
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
 	while (*(s + count) != '\0')
 	{
-		for (a = 0; a < 52; a++)
+		for (i = 0; i < 52; i++)
 		{
-			if (*(s + count) == alphabet[a])
+			if (*(s + count) == alphabet[i])
 			{
-				*(s + count) == rot13[a];
+				*(s + count) == rot13[i];
 				break;
 			}
 		}
