@@ -6,7 +6,7 @@
  */
 char *rot13(char *s)
 {
-	int count = 0, i;
+	int count = 0, i = 0;
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
@@ -22,5 +22,6 @@ char *rot13(char *s)
 		}
 		count++;
 	}
+
 	return (s);
 }
