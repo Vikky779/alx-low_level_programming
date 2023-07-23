@@ -3,7 +3,6 @@
 /**
  * free_dog - free dogs
  * @d: struct dog
- * @dog_t: dog type
  * Return: No return
  */
 void free_dog(dog_t *d)
