@@ -28,7 +28,6 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	while (g >= 0)
 	{
 		p = dr1 + dr2 + sum;
-
 		if (p >= 10)
 			sum = p / 10;
 		else
