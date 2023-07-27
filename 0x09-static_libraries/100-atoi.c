@@ -9,7 +9,7 @@ int _atoi(char *s)
 	int x = 1, i = 0;
 	unsigned int r = 0;
 
-	while (!s[i] <= '9' && (s[i] >= '0') && s[i] != '\0')
+	while (!(s[i]) < '9' && (s[i] >= '0') && s[i] != '\0')
 	{
 		if (s[i] == '-')
 			x *= -1;
