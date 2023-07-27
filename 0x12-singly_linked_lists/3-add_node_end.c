@@ -2,12 +2,12 @@
 /**
  * add_node_end - This adds a new node at the end of list
  * @head: head of the linked list.
- * @str: string to store in list.
+ * @str: string to store in the list.
  * Return: Address of the head.
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
-	list_t *bgn *temp;
+	list_t *bgn, *temp;
 	size_t ch;
 
 	bgn = malloc(sizeof(list_t));
